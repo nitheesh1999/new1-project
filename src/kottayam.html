@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Welcome to kerala tourism</title>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">Kerala Tourism</a>
+      <!-- <button class="navbar-toggler" data-toggle="collapse" data-target="#navNavbar"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navbarNav"> -->
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item highlight">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="login.html" class="nav-link">Login</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" >
+              Districts
+            </a>
+            <ul class="dropdown-menu" >
+              <li><a class="dropdown-item" href="alapuzha.html">Alappuzha</a></li>
+              <li><a class="dropdown-item" href="ernakulam.html">Ernakulam</a></li>
+              <li><a class="dropdown-item" href="idukki.html">Idukki</a></li>
+              <li><a class="dropdown-item" href="kannur.html">Kannur</a></li>
+              <li><a class="dropdown-item" href="kasarkode.html">Kasaragod</a></li>
+              <li><a class="dropdown-item" href="kollam.html">Kollam</a></li>
+              <li><a class="dropdown-item" href="kottayam.html">Kottayam</a></li>
+              <li><a class="dropdown-item" href="kozhikode.html">Kozhikode</a></li>
+              <li><a class="dropdown-item" href="malapuram.html">Malappuram</a></li>
+              <li><a class="dropdown-item" href="palakad.html">Palakkad</a></li>
+              <li><a class="dropdown-item" href="patanamthitta.html">Pathanamthitta</a></li>
+              <li><a class="dropdown-item" href="tvm.html">Thiruvananthapuram</a></li>
+              <li><a class="dropdown-item" href="thrissur.html">Thrissur</a></li>
+              <li><a class="dropdown-item" href="wayanad.html">Wayanad</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Others</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!-- body -->
+  <br>
+  <header id="home-section">
+    <div class="container">
+      <div class="dark-overlay">
+        <h1 class="display-1 ">KOTTAYAM</h1>
+        <hr>
+          <br>
+          <br>
+        <hr style="height:3px;border-width:0;color:gray;background-color:gray;width: 100%;">
+          <div class="row">
+            <div class="col-6 lg mt-5">
+              <h2 class="display-3 mt-1">1.Aruvikuzhy Waterfalls</h2>
+              <br>
+              <img src="../img/aruvikkuzhi_waterfalls.jpg" class="img-fluid" alt="...">
+              <button type="button"id="btnpopover" class="btn btn-lg btn-danger"  data-trigger="focus" data-toggle="popover" title="Popover title" data-content="Aruvikuzhy Waterfalls is a waterfall in Kottayam district in the Kerala state of India. It is situated 2 km from Pallickathode and 7.5 km from Pampady. The waterfall measures about 30 ft in height and active only during monsoon. In summer the river almost dries up.">Click here to know more</button>
+              
+            </div>
+            <div class="col-6 lg mt-5">
+              <h2 class="display-3">2.Kumarakom Bird santuary</h2>
+              <br>
+              <img src="../img/bird.jpg" class="img-fluid" alt="..."width="200%">
+              <button type="button" id="btnpopover1"class="btn btn-lg btn-success"  data-trigger="focus" data-toggle="popover" title="Popover title" data-content="Kumarakom Bird Sanctuary is situated at Kumarakom in Kottayam taluk of Kottayam district in the Indian state of Kerala, on the banks of Vembanad Lake. Set in the Kerala Backwaters, the bird sanctuary is a favourite haunt of migratory birds.">Click here to know more</button>
+              
+            </div>
+          
+      </div>
+    </div>
+    
+  </header>
+  
+
+
+  
+
+  
+  <!-- FOOTER -->
+  <footer id="main-footer"class="bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <div class="py-4">
+            <h1 class="h3">GO GREEN GO CLEAN</h1>
+            <p>Under government of kerala</p>
+            <button class="btn btn-primary"data-toggle="modal"
+                  data-target="#contactModal">Contact Us</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script></script>
+
+  <script src="js/jquery.min.js">
+  </script>
+  <script src="js/popper.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('#btnpopover').popover();
+    });
+  </script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('#btnpopover1').popover();
+      });
+    </script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

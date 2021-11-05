@@ -1,0 +1,116 @@
+
+
+body {
+  background: #333;
+  color: #fff; }
+
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1em !important;
+  padding-right: 1em !important; }
+
+.navbar .nav-item.active {
+  border-left: #444 3px solid; }
+
+.carousel-item {
+  height: 550px; }
+
+.carousel-image-1 {
+  background: url("../img/image_1.jpg");
+  background-size: cover; }
+
+.carousel-image-2 {
+  background: url("../img/image_2.jpg");
+  background-size: cover; }
+
+.carousel-image-3 {
+  background: url("../img/image_3.jpg");
+  background-size: cover; }
+
+  #home-section {
+    background: url("../img/home1.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px; }
+
+  #home-section .card-form {
+      opacity: 0.8;
+      margin-right: 4%;
+     
+   }
+  .row{
+    margin-top: 1%;
+  }
+  a.link{
+    text-decoration: none;
+    color: black;
+  }
+  .main-footer{
+    height: 2%;
+  }
+  .desc{
+    text-indent: 3px;
+  }
+  .elephant{
+    margin-left: 5px;
+    padding-right: 5px;
+  }
+  #home-section1 .card-form {
+    opacity: 0.8;
+    margin-right: 2%;
+
+ }
+ #home-section1 {
+  background: url("../img/home1.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px; }
+  #home-section1 .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+   }
+   button title{
+     color:black;
+   }
+   #home-section .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    min-height: 700px;
+   }
+   .margin{
+
+      margin-top: 10%;
+   }
+   #home-section .fa {
+    color: #20bd38;
+    background: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px; 
+  }
+
+  #explore-section .fa {
+    color: #20bd38;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    font-size: 50px; 
+  }
+  #explore-content .fa {
+    color: #20bd38;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-left:13%;
+    font-size: 50px; 
+  }
+
+
+  
+  
